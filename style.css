@@ -1,0 +1,42 @@
+body {
+    background-color: #FFF3C7;
+}
+
+h1 {
+    font-size: 50px;
+    color: #F7418F;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: #fc53a7;
+}
+
+li,p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a:visited,
+a:link {
+    color: #FC819E;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7418F;
+}
+
+.button {
+    background-color: #FFF3C7;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #F7418F;
+}
+
+.button:hover {
+    background-color: #FEC7B4;
+    color: #F7418F;
+}
