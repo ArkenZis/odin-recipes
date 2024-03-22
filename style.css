@@ -16,6 +16,7 @@ h2 {
 li,p {
     font-size: 25px;
     font-weight: bold;
+    padding-bottom: 25px;
 }
 
 a:visited,
@@ -39,4 +40,25 @@ a:hover {
 .button:hover {
     background-color: #FEC7B4;
     color: #F7418F;
+}
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+td {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+th {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
 }
