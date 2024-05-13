@@ -8,6 +8,11 @@ h1 {
 
 }
 
+
+.main-heading{
+    text-align: center;
+}
+
 h2 {
     font-size: 30px;
     color: #fc53a7;
@@ -19,10 +24,19 @@ li,p {
     padding-bottom: 25px;
 }
 
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+
+}
 a:visited,
 a:link {
     color: #FC819E;
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -32,9 +46,11 @@ a:hover {
 
 .button {
     background-color: #FFF3C7;
-    padding: 10px 20px;
+    padding: 50px 70px;
+    margin: 5px;
     border-radius: 8px;
     border: 2px solid #F7418F;
+    flex: 1 0 21%;
 }
 
 .button:hover {
